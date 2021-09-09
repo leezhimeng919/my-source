@@ -1,0 +1,5 @@
+  // 1. 实例化compiler对象
+    // 2. 初始化 NodeEnvironmentPlugin，让compiler具备文件读写能力
+    // 3. 挂载所有 plugins 插件至 compiler 对象身上
+    // 4. 挂载所有 webpack 内置的插件（入口）
+    // 5. 返回compiler对象即可
