@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>权重相等的情况下</title>
+		<style>
+            /* 权重值：201,离目标最近 */
+			#box #box3 p{
+				width: 200px;
+				height: 200px;
+				background-color: yellow;
+			}
+			/* 权重值：201 */
+			#box #box2 p{
+				width: 200px;
+				height: 200px;
+				background-color: red;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!-- 同等权重下,靠近目标的优先 -->
+		<div id="box" class="boxs">
+			<div id="box2" class="boxs2">
+		    	        <div id="box3" class="boxs3">
+		      		        <p></p>
+		    	        </div>
+		 	</div>
+		</div>
+	</body>
+</html>
